@@ -8,9 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/cookie/set" method="post">
-        Name: <input type="text" name="name"/><br>
-        <input type="submit" value="Send!"/>
+    <div>
+        <a href="/">Back to the home page</a><br>
+    </div>
+    <form action="/save" method="post">
+        <input type="text" name="author"/>
+        <textarea name="comment"></textarea>
+        <input type="submit" value="Send!">
     </form>
 </body>
 </html>
